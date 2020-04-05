@@ -1,50 +1,20 @@
 
+
 @extends('layouts.master')
-@include('includes.partials.jumbotron')
-
 @section('content')
-    <h1 class="my-4">Welcome to Modern Business</h1>
 
-    <!-- Marketing Icons Section -->
-    <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.row -->
+  
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">Portfolio 3
+      <small>Subheading</small>
+    </h1>
 
-    <!-- Portfolio Section -->
-    <h2>Portfolio Heading</h2>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="breadcrumb-item active">Portfolio 3</li>
+    </ol>
 
     <div class="row">
       <div class="col-lg-4 col-sm-6 portfolio-item">
@@ -114,40 +84,30 @@
         </div>
       </div>
     </div>
-    <!-- /.row -->
 
-    <!-- Features Section -->
-    <div class="row">
-      <div class="col-lg-6">
-        <h2>Modern Business Features</h2>
-        <p>The Modern Business template by Start Bootstrap includes:</p>
-        <ul>
-          <li>
-            <strong>Bootstrap v4</strong>
-          </li>
-          <li>jQuery</li>
-          <li>Font Awesome</li>
-          <li>Working contact form with validation</li>
-          <li>Unstyled page elements for easy customization</li>
-        </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-      </div>
-      <div class="col-lg-6">
-        <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
-      </div>
-    </div>
-    <!-- /.row -->
+    <!-- Pagination -->
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">1</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">2</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">3</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>
 
-    <hr>
-
-    <!-- Call to Action Section -->
-    <div class="row mb-4">
-      <div class="col-md-8">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-      </div>
-      <div class="col-md-4">
-        <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
-      </div>
-    </div>
-      
-      @endsection
+@endsection

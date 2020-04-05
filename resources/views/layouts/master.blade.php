@@ -3,7 +3,7 @@
 @include('includes.head')
 <body>
 @include('includes.navigation')
-@include('includes.partials.jumbotron')
+
   <!-- Page Content -->
   <div class="container">
     
