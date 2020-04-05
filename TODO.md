@@ -1,0 +1,2 @@
+- add password reset
+- add auth

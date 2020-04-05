@@ -67,3 +67,6 @@ Route::get('/services', function () {
 Route::get('/sidebar', function () {
     return View::make('pages.sidebar');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
