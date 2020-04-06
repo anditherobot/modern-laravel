@@ -13,6 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Controller routes
+
+Auth::routes();
+
+Route::get('/admin/home', 'HomeController@index')->name('admin-home');
+
+
+
+// Pages
+
 Route::get('/', function () {
     return View::make('pages.home');
 });
@@ -67,6 +77,3 @@ Route::get('/services', function () {
 Route::get('/sidebar', function () {
     return View::make('pages.sidebar');
 });
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
