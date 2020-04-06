@@ -31,6 +31,11 @@ Route::get('/contact', function () {
     return View::make('pages.contact');
 });
 
+Route::get('/about', function () {
+    return View::make('pages.about');
+});
+
+
 
 
 Route::get('/blog-home-1', function () {
